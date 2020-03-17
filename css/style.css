@@ -13,16 +13,21 @@ a {
   text-decoration: none;
 }
 .nav a:hover {
-  border-bottom: 10px solid rgb(255, 184, 162);
-  margin-bottom: -10px;
-  color: rgb(255, 184, 162);
+
+  margin-bottom: -4px;
+  color: #CAEADB;
+  border-bottom: 4px solid #CAEADB;
 }
 .nav a {
-  font-size:1em;
+  font-size:1em; 
   /* font-style: italic; */
   font-weight: lighter;
-  color: #222;
+  color: black;
+  /* padding: 20px;
+  border-right: 1px solid black; */
+  /* border-bottom: 4px solid #CAEADB; */
   text-transform: uppercase;
+
   /* font-weight: bolder; */
   /* border: 1px solid rgb(133, 133, 133);
   padding: 10px 5px;
@@ -155,8 +160,8 @@ img {
 }
 .description a:hover {
 
-color: rgb(255, 184, 162);
-border-left: 15px solid rgb(255, 184, 162);
+color: rgb(154, 211, 185);
+border-left: 15px solid #CAEADB;
 }
 footer {
   width: 100%;
@@ -178,9 +183,11 @@ footer {
   /* border-radius: 15px; */
 }
 #name {
-  font-size: 4em;
+  font-size: 4.7em;
   text-transform: uppercase; 
-
+  font-weight: bolder;
+  color: rgb(255, 198, 164);
+  font-style: italic;
 }
 .subtitle {
   color: rgb(158, 158, 158);
