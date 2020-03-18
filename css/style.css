@@ -197,3 +197,9 @@ footer {
   color: rgb(158, 158, 158);
   font-weight: bolder;
 }
+#logo {
+  width: 2%;
+  height: auto;
+  margin: 2%;
+  position: fixed;
+}
