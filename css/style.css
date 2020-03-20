@@ -15,13 +15,13 @@ a {
 .nav a:hover {
 
   margin-bottom: -4px;
-  color: #CAEADB;
-  border-bottom: 4px solid #CAEADB;
+  color: rgb(255, 214, 161);
+  border-bottom: 4px solid rgb(255, 214, 161);
   font-weight: bolder;
 }
 .nav a {
   font-size:1em; 
-  /* font-style: italic; */
+  font-style: italic;
   font-weight: lighter;
   color: black;
   /* padding: 20px;
@@ -164,8 +164,8 @@ img {
 }
 .description a:hover {
 
-color: rgb(154, 211, 185);
-border-left: 15px solid #CAEADB;
+color: rgb(255, 214, 161);
+border-left: 15px solid rgb(255, 214, 161);
 }
 footer {
   width: 100%;
@@ -190,7 +190,7 @@ footer {
   font-size: 4.7em;
   text-transform: uppercase; 
   font-weight: bolder;
-  color: rgb(255, 198, 164);
+  color: #C9E4FE;
   font-style: italic;
 }
 .subtitle {
@@ -198,7 +198,7 @@ footer {
   font-weight: bolder;
 }
 #logo {
-  width: 3%;
+  width: 5%;
   height: auto;
   margin: 1%;
   position: fixed;
