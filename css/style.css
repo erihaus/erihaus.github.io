@@ -141,3 +141,10 @@ img {
   color: black;
   background-color: #FFC093;
 }
+footer {
+  text-align: center;
+  padding-top: 25px;
+  background-color: black;
+  color: white;
+  padding-bottom: 25px;
+}
