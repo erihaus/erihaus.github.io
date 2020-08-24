@@ -9,6 +9,12 @@ body {
 a{
   text-decoration: none;
 }
+#art {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  z-index: -1;
+}
 .top {
   height: 100%;
   display: flex;
@@ -40,18 +46,23 @@ nav div a {
 }
 
 nav div a:hover {
-  border-bottom: 6px solid black;
+  border-bottom: 2px dotted black;
 }
-
+/* 
+hr {
+  margin-top: 1%;
+  height: 1.5px;
+  background-color: black;
+} */
 /* Introduction */
 section {
   margin-top: 5%;
   display: flex;
   flex-direction: column;
   /* justify-content: space-around; */
-  margin-left: 13%;
+  margin-left: 8%;
   /* align-items: center; */
-  margin-right: 13%;
+  margin-right: 8%;
 }
 section p {
   font-size: 1.8vw;
@@ -81,7 +92,6 @@ section h1 {
   font-family: 'Fugaz One', cursive; */
   /* color: #A23419; */
   color:black;
-  border-bottom: 2px dotted black;
   line-height: 0.9;
   /* border-bottom: 2px dotted black; */
 }
@@ -94,7 +104,7 @@ article {
   margin-left: 2%;
   margin-right: 2%;
 }
-img {
+article img {
   width: 300px; 
   height: auto;
   border-radius: 3px;
