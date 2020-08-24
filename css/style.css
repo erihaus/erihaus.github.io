@@ -11,9 +11,10 @@ a{
 }
 #art {
   position: absolute;
-  width: 40%;
+  width: 35%;
   height: auto;
   z-index: -1;
+  border-radius: 0;
 }
 .top {
   height: 100%;
@@ -42,11 +43,7 @@ nav div a {
 }
 
 nav div a:hover {
-<<<<<<< HEAD
   border-bottom: 2px dotted black;
-=======
-  border-bottom: 6px solid #FFC093;
->>>>>>> 764babeb1cac4615ace71f553b0f1bc9de3a74f4
 }
 /* 
 hr {
@@ -59,15 +56,10 @@ section {
   margin-top: 5%;
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
   /* justify-content: space-around; */
   margin-left: 8%;
   /* align-items: center; */
   margin-right: 8%;
-=======
-  margin-left: 13%;
-  margin-right: 13%;
->>>>>>> 764babeb1cac4615ace71f553b0f1bc9de3a74f4
 }
 section p {
   font-size: 1.8vw;
@@ -90,17 +82,6 @@ section h1 {
 /* Projects */
 
 article {
-<<<<<<< HEAD
-  margin-top: 20px;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-article img {
-  width: 300px; 
-  height: auto;
-  border-radius: 3px;
-  margin-right: 10px;
-=======
   padding-right: 2%;
   padding-left: 2%;
   color: black;
@@ -109,7 +90,6 @@ article img {
   display: flex;
   flex-direction: column;
   align-items: center;
->>>>>>> 764babeb1cac4615ace71f553b0f1bc9de3a74f4
 }
 
 .work {
