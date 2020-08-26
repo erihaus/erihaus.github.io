@@ -1,9 +1,9 @@
 * {
   margin: 0;
+  font-family: 'Playfair Display', serif;
 }
 body {
   color: #070035;
-  font-family: 'Playfair Display', 'Georgia', serif;
 }
 a{
   text-decoration: none;
@@ -70,7 +70,6 @@ flex-direction: column;
 }
 
 #intro h1 {
-  font-family: 'Playfair Display', sans-serif;
   font-size: 7.3vw;
   display: inline-block;
   color:#070035;
@@ -80,6 +79,8 @@ flex-direction: column;
 .down-arrow {
   height: 10vh;
   width: auto;
+  /* background-color: white;
+  border-radius: 50%; */
 }
 section a {
   align-self: center;
@@ -88,29 +89,29 @@ section a {
 /* Projects */
 
 article {
-  padding-right: 2%;
-  padding-left: 2%;
-  background-color: #070035;
+  background-image: url('../images/article_background.png');
   display: flex;
+  width: 100vw;
   flex-direction: column;
   align-items: center;
+  padding-top: 15vh;
 }
+
 .work {
   display: flex;
-  width: 65%;
-  height: auto;
   flex-direction: row;
-  /* background-color: white; */
   border-radius: 20px;
-  align-items: center;
-  padding: 4%;
-  padding-top: 100px;
+  /* padding-top: 100px; */
+  margin-bottom: 15vh;
+  color: white;
+  font-family: 'Playfair Display', serif;
 }
 
 img {
-  height: 350px;
-  width: auto;
+  width: 500px;
+  height: auto;
   border-radius: 20px;
+  margin-right: 3vw;
 }
 
 .header {
@@ -118,20 +119,27 @@ img {
 }
 
 .title {
-  font-size: 2.3em;
+  font-size: 2.1vw;
+  font-weight: bold;
   margin-bottom: 15px;
 }
 
 .subtitle {
-  font-size: 1.2em;
+  font-size: 1.6vw;
+  font-weight: bolder;
 
 }
 
+.role {
+  color: #CA352C;
+}
+
 .description {
-  font-size: 1em;
+  font-size: 1.6vw;
   font-weight: lighter;
   line-height: 1.6em;
   margin-top: 20px;
+
 } 
 
 
@@ -139,27 +147,27 @@ img {
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-left: 5%;
   align-items: flex-start;
-  color: white;
+  width: 30vw;
   
 }
 .caption a{
   padding: 12px;
   margin-top: 10%;
-  color: black;
-  background-color: white;
+  color: white;
   border-radius: 10px;
+  background-color: #CA352C;
 }
 
 .caption a:hover {
-  color: black;
-  background-color: #FFC093;
+  color: #050025;
+  background-color: white;
 }
 footer {
   text-align: center;
   padding-top: 25px;
-  background-color: black;
+  background-color: #050025;
+  width: 100vw;
   color: white;
   padding-bottom: 25px;
 }
