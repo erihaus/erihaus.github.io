@@ -1,3 +1,116 @@
+@media screen and (min-width: 0px) {
+  img {
+    width: 80vw; 
+    height: auto;
+    margin-bottom: 5vw;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .subtitle, .description, .caption a {
+    font-size: 18px;
+  }
+  #intro p, nav div a {
+    font-size: 2.5vw;
+  }
+  #intro h1 {
+    font-size: 7vw;
+  }
+  #intro {
+    width: 80vw;
+  }
+  .down-arrow {
+    height: 8vh;
+    width: auto;
+  }
+}
+@media screen and (max-width: 624px) {
+  #intro p {
+    font-size: 4vw;
+  }
+  nav div a {
+    font-size: 3.5vw;
+  }
+  #intro h1 {
+    font-size: 9vw;
+  }
+  #intro {
+    width: 90vw;
+  }
+  .down-arrow {
+    margin-top: 10vh;
+  }
+  .work {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .caption {
+    width: 80vw;
+  }
+  article {
+    background-color: #050025;
+  }
+  
+}
+@media screen and (min-width: 624px) {
+  img {
+    width: 60vw; 
+    height: auto;
+  }
+  .caption {
+    width: 25vw;
+  }
+  article {
+    background-image: url('../images/article_background.png');
+  }
+}
+@media screen and (min-width: 1029px) {
+  img { 
+    width: 500px;
+  height: auto;
+  }
+  .title {
+    font-size: 2vw;
+  }
+  .subtitle, .description, .caption a {
+    font-size: 1.3vw;
+  } 
+  #intro {
+    width: 45vw;
+  }
+  #intro p {
+    font-size: 1.8vw;
+    line-height: 2.3vw;
+  }
+  #intro h1 {
+    font-size: 7.3vw;
+    line-height: 0.9;
+  }
+  nav div a {
+    font-size: 1.3vw;
+  }
+  .down-arrow {
+    height: 10vh;
+    width: auto;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 1286px) {
+  .top {
+    padding-top: 1%;
+    height: 100vh;
+    background-image: url('../images/clipped_background.png');
+  }
+  nav {
+    margin-bottom: 5%;
+  }
+}
+@media screen and (min-width: 1286px) {
+  .top {
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url('../images/background.png');
+  }
+}
 * {
   margin: 0;
   font-family: 'Playfair Display', serif;
@@ -9,12 +122,10 @@ a{
   text-decoration: none;
 }
 .top {
-  height: 100vh;
   width: 100vw;
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
-  background-image: url('../images/background.png');
+  flex-direction: column;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -31,7 +142,6 @@ nav div {
 }
 
 nav div a {
-  font-size: 1.3vw;
   font-weight: bold;
   color: #070035;
 }
@@ -59,31 +169,20 @@ flex-direction: column;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 45vw;
   /* justify-content: space-around; */
   /* align-items: center; */
 }
 #intro p {
-  font-size: 1.8vw;
-  line-height: 2.3vw;
   text-align: left;
   margin-top: 6%;
 }
 
 #intro h1 {
-  font-size: 7.3vw;
   display: inline-block;
   color:#070035;
-  line-height: 0.9;
   font-weight: 900;
 }
 
-.down-arrow {
-  height: 10vh;
-  width: auto;
-  /* background-color: white;
-  border-radius: 50%; */
-}
 section a {
   align-self: center;
 }
@@ -91,7 +190,6 @@ section a {
 /* Projects */
 
 article {
-  background-image: url('../images/article_background.png');
   display: flex;
   width: 100vw;
   flex-direction: column;
@@ -111,8 +209,6 @@ article {
 }
 
 img {
-  width: 500px;
-  height: auto;
   border-radius: 20px;
   margin-right: 3vw;
 }
@@ -122,28 +218,20 @@ img {
 }
 
 .title {
-  font-size: 2vw;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
 .subtitle {
-  font-size: 1.3vw;
   font-weight: 600;
-  color: white;
+  color: #F8CFB8;
 }
 .date {
   font-weight: 400;
-  color: #F8CFB8;
 }
 
-
-.role {
-  color: #CA352C;
-}
 
 .description {
-  font-size: 1.3vw;
   font-weight: 400;
   line-height: 1.6em;
   margin-top: 20px;
@@ -156,12 +244,9 @@ img {
   flex-direction: column;
   text-align: left;
   align-items: flex-start;
-  width: 25vw;
-  
 }
 .caption a{
   padding: 12px;
-  font-size: 1.3vw;
   margin-top: 10%;
   color: #050025;
   font-weight: 700;
@@ -176,7 +261,7 @@ img {
 footer {
   text-align: center;
   padding-top: 25px;
-  background-color: #050025;
+  background-color:#050025;
   width: 100vw;
   color: white;
   padding-bottom: 25px;
