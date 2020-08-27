@@ -16,16 +16,13 @@
   nav div a {
     font-size: 20px;
   }
-  #intro h1 {
-    font-size: 72px;
-  }
   #intro {
     width: 80vw;
   }
   .down-arrow {
     height: 8vh;
     width: auto;
-    margin-top: 10vh;
+    margin-top: 2vh;
   }
   .work {
     flex-wrap: wrap;
@@ -36,6 +33,25 @@
   }
   article {
     background-color: #050025;
+  }
+}
+@media screen and (max-width: 568px) {
+  nav {
+  padding-top: 10%;
+  }
+  #intro p {
+    font-size: 22px;
+  }
+  #intro h1 {
+    font-size: 48px;
+  }
+  section {
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 568px) {
+  nav {
+    padding-top: 1%;
   }
 }
 @media screen and (min-width: 624px) {
@@ -81,7 +97,6 @@
 }
 @media screen and (min-width: 0px) and (max-width: 1286px) {
   .top {
-    padding-top: 1%;
     height: 100vh;
     background-image: url('../images/clipped_background.png');
   }
@@ -91,7 +106,6 @@
 }
 @media screen and (min-width: 1286px) {
   .top {
-    justify-content: space-around;
     height: 100vh;
     background-image: url('../images/background.png');
   }
