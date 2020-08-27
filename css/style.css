@@ -10,11 +10,14 @@
   .subtitle, .description, .caption a {
     font-size: 18px;
   }
-  #intro p, nav div a {
-    font-size: 2.5vw;
+  #intro p {
+    font-size: 25px;
+  }
+  nav div a {
+    font-size: 20px;
   }
   #intro h1 {
-    font-size: 7vw;
+    font-size: 72px;
   }
   #intro {
     width: 80vw;
@@ -22,22 +25,6 @@
   .down-arrow {
     height: 8vh;
     width: auto;
-  }
-}
-@media screen and (max-width: 624px) {
-  #intro p {
-    font-size: 4vw;
-  }
-  nav div a {
-    font-size: 3.5vw;
-  }
-  #intro h1 {
-    font-size: 9vw;
-  }
-  #intro {
-    width: 90vw;
-  }
-  .down-arrow {
     margin-top: 10vh;
   }
   .work {
@@ -50,7 +37,6 @@
   article {
     background-color: #050025;
   }
-  
 }
 @media screen and (min-width: 624px) {
   img {
@@ -84,7 +70,6 @@
   }
   #intro h1 {
     font-size: 7.3vw;
-    line-height: 0.9;
   }
   nav div a {
     font-size: 1.3vw;
@@ -181,6 +166,7 @@ flex-direction: column;
   display: inline-block;
   color:#070035;
   font-weight: 900;
+  line-height: 0.9;
 }
 
 section a {
