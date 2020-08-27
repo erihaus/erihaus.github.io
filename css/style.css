@@ -53,6 +53,9 @@
   nav {
     padding-top: 1%;
   }
+  #intro h1 {
+    font-size: 7.3vw;
+  }
 }
 @media screen and (min-width: 624px) {
   img {
@@ -83,9 +86,6 @@
   #intro p {
     font-size: 1.8vw;
     line-height: 2.3vw;
-  }
-  #intro h1 {
-    font-size: 7.3vw;
   }
   nav div a {
     font-size: 1.3vw;
