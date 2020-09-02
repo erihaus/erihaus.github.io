@@ -65,8 +65,13 @@
   .caption {
     width: 25vw;
   }
-  article {
-    background-image: url('../images/article_background.png');
+  article { 
+    background: url('../images/article_background.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
   }
 }
 @media screen and (min-width: 1029px) {
@@ -98,7 +103,11 @@
 @media screen and (min-width: 0px) and (max-width: 1286px) {
   .top {
     height: 100vh;
-    background-image: url('../images/clipped_background.png');
+    background: url('../images/clipped_background.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   nav {
     margin-bottom: 5%;
@@ -107,7 +116,11 @@
 @media screen and (min-width: 1286px) {
   .top {
     height: 100vh;
-    background-image: url('../images/background.png');
+    background: url('../images/background.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
 * {
@@ -202,7 +215,7 @@ article {
   flex-direction: row;
   border-radius: 20px;
   /* padding-top: 100px; */
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 15vh;
   color: white;
   font-family: 'Playfair Display', serif;
@@ -255,8 +268,8 @@ img {
 }
 
 .caption a:hover {
-  color: white;
-  background-color: #CA352C;
+  background-color: #F3A093;
+  font-weight: 900;
 }
 footer {
   text-align: center;
