@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 @media screen and (min-width: 0px) {
   img {
     width: 80vw; 
@@ -51,7 +54,7 @@
 }
 @media screen and (min-width: 568px) {
   nav {
-    padding-top: 1%;
+    padding-top: 3%;
   }
   #intro h1 {
     font-size: 7.3vw;
@@ -101,26 +104,8 @@
   }
 }
 @media screen and (min-width: 0px) and (max-width: 1286px) {
-  .top {
-    height: 100vh;
-    background: url('../images/clipped_background.png') no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
   nav {
     margin-bottom: 5%;
-  }
-}
-@media screen and (min-width: 1286px) {
-  .top {
-    height: 100vh;
-    background: url('../images/background.png') no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
   }
 }
 * {
@@ -135,11 +120,17 @@ a{
 }
 .top {
   width: 100vw;
+  height: 100vh;
+  background: url('../images/background.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.flex {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* Navigation Bar */
 nav {
@@ -147,7 +138,7 @@ nav {
   justify-content: flex-end;
   margin-left: 5%;
   margin-right: 5%;
-  padding-top: 1%;
+  margin-bottom: 3%;
 }
 nav div {
   margin-left: 3%;
@@ -162,18 +153,12 @@ nav div a:hover {
   border-bottom: 2px dotted #070035;
 }
 
-/* 
-hr {
-  margin-top: 1%;
-  height: 1.5px;
-  background-color: black;
-} */
 /* Introduction */
 section {
   display: flex; 
   justify-content: flex-start;
 width: 100%;
-padding-top: 2%;
+padding-top: 6%;
 flex-direction: column;
 }
 #intro {
@@ -251,7 +236,6 @@ img {
 
 } 
 
-
 .caption {
   display: flex;
   flex-direction: column;
@@ -268,8 +252,20 @@ img {
 }
 
 .caption a:hover {
-  background-color: #F3A093;
+  background-color: white;
   font-weight: 900;
+}
+#contact-home {
+  font-size: 2.8vw;
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 80vw;
+  margin-top: -15%;
+  margin-bottom: 50px;
+}
+#contact-home a {
+  color: #F8CFB8;
 }
 footer {
   text-align: center;
@@ -278,4 +274,112 @@ footer {
   width: 100vw;
   color: white;
   padding-bottom: 25px;
+}
+
+/* About page */
+@media screen and (min-width: 0) {
+  #about img {
+    width: 20vw;
+    margin-left: 5%;
+  }
+  #about ul {
+    font-size: 4vw;
+  }
+  #about p {
+    font-size: 4.5vw;
+  }
+}
+@media screen and (min-width: 641px) {
+  #about img {
+    width: 20vw;
+    margin-left: 5%;
+  }
+  #about div {
+    width: 60vw;
+  }
+  #about ul {
+    font-size: 2.4vw;
+
+  }
+  #about p {
+    font-size: 2.8vw;
+  }
+}
+@media screen and (min-width: 1002px) {
+  #about img {
+    width: 25vw;
+  }
+  #about div {
+    width: 40vw;
+  }
+  #about ul {
+    font-size: 1.4vw;
+
+  }
+  #about p {
+    font-size: 1.8vw;
+  }
+}
+#about_page {
+  background: url('../images/background.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #050025;
+  width: 90vw;
+  margin-left: 5vw;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+#about hr {
+  margin-bottom: 15px;
+}
+#about img {
+  margin-top: 5%;
+  border-radius: 50%;
+  margin-right: 0;
+}
+#about div {
+  color: white;
+  padding: 5%;
+
+}
+#about ul {
+  margin: 2% 0;
+}
+#about h1 {
+  font-size: 4vw;
+}
+#about a {
+  color: white;
+  text-decoration: underline;
+}
+
+#about div div {
+  margin-top: 6%;
+  padding: 0;
+}
+
+.dot {
+  height: 0.5vw;
+  width: 0.5vw;
+  margin-right: 10px;
+  background-color: #F8CFB8;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+#contact hr {
+  margin-bottom: 30px;
 }
