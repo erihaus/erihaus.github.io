@@ -5,13 +5,15 @@ html {
   img {
     width: 80vw; 
     height: auto;
-    margin-bottom: 5vw;
   }
   .title {
     font-size: 25px;
   }
   .subtitle, .description, .caption a {
     font-size: 18px;
+  }
+  .role {
+    font-size: 20px;
   }
   #intro p {
     font-size: 25px;
@@ -83,11 +85,14 @@ html {
   height: auto;
   }
   .title {
-    font-size: 2vw;
+    font-size: 2.3vw;
   }
   .subtitle, .description, .caption a {
     font-size: 1.3vw;
   } 
+  .role {
+    font-size: 1.6vw;
+  }
   #intro {
     width: 45vw;
   }
@@ -198,9 +203,8 @@ article {
 .work {
   display: flex;
   flex-direction: row;
-  border-radius: 20px;
   /* padding-top: 100px; */
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 15vh;
   color: white;
   font-family: 'Playfair Display', serif;
@@ -212,7 +216,6 @@ img {
 }
 
 .header {
-  margin-bottom: 15px;
   display: flex;
 }
 
@@ -229,11 +232,10 @@ img {
   font-weight: 400;
 }
 
-
 .description {
   font-weight: 400;
   line-height: 1.6em;
-  margin-top: 20px;
+  margin-top: 10px;
 
 } 
 
@@ -296,7 +298,7 @@ footer {
 }
 @media screen and (min-width: 641px) {
   #about img {
-    width: 20vw;
+    width: 18vw;
     margin-left: 5%;
   }
   #about div {
