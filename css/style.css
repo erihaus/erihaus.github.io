@@ -66,7 +66,7 @@ html {
     height: auto;
   }
   .caption {
-    width: 25vw;
+    width: 30vw;
   }
   article { 
     background: url('../images/article_background.png') no-repeat center center; 
@@ -213,6 +213,7 @@ img {
 
 .header {
   margin-bottom: 15px;
+  display: flex;
 }
 
 .title {
