@@ -387,3 +387,23 @@ footer {
 #contact hr {
   margin-bottom: 30px;
 }
+
+/* Student Orgs */
+#hpe {
+  background: url('../images/background.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#hpe h1 {
+  font-size: 3vw;
+}
+#design-journey {
+  background-color: #FBE4D7;
+  width: 80vw;
+  border-radius: 20px;
+  padding: 5vw;
+  margin-left: 5vw;
+  margin-bottom: 100px;
+}
